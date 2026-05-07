@@ -1,0 +1,49 @@
+[global]
+font = Gallant12 14
+allow_markup = yes
+format = "<b>%s</b>\n%b"
+sort = yes
+indicate_hidden = yes
+alignment = center
+word_wrap = yes
+ignore_newline = no
+stack_duplicates = false
+hide_duplicate_count = true
+show_indicators = no
+width = (0, 500)
+height = (0, 300)
+origin = top-center
+offset = 0x46
+frame_width = 4
+scale = 0
+notification_limit = 2
+progress_bar = false
+transparency = 0
+corner_radius = 0
+mouse_left_click = close_current
+mouse_middle_click = do_action
+mouse_right_click = close_all
+default_timeout = 0
+
+[urgency_low]
+background = "#000000"
+foreground = "#aaaaaa"
+timeout = 3
+frame_color = "#080808"
+
+[urgency_normal]
+background = "#000000"
+foreground = "#cccccc"
+timeout = 5
+frame_color = "#191919"
+
+[urgency_critical]
+background = "#000000"
+foreground = "#ffffff"
+timeout = 15
+frame_color = "#333333"
+
+[rule_play_sound]
+appname = *
+summary = *
+script = /home/foobar/shell/dunst_sfx.sh

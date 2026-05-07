@@ -1,0 +1,28 @@
+[general]
+import = [ "~/.config/alacritty/themes/current" ]
+live_config_reload = true
+
+[window]
+dimensions = { columns = 96, lines = 32 }
+padding = { x = 14, y = 14 }
+dynamic_title = true
+
+[scrolling]
+history = 10000
+
+[font]
+normal = { family = "Gallant12", style = "Regular" }
+bold = { family = "Gallant12", style = "Bold" }
+italic = { family = "Gallant12", style = "Italic" }
+size = 12
+
+[cursor]
+style = { shape="Beam", blinking="Always" }
+thickness = 0.3
+blink_interval = 500
+blink_timeout = 0
+smooth_motion = true
+smooth_motion_factor = 0.98
+smooth_motion_spring = 1
+smooth_motion_max_stretch_x = 1.2
+smooth_motion_max_stretch_y = 1.2
