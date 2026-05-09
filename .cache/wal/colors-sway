@@ -1,0 +1,21 @@
+set $wallpaper /home/foobar/pics/walls/tiled3.png
+
+set $background #171a1d
+set $foreground #c5c5c6
+
+set $color0 #171a1d
+set $color1 #788696
+set $color2 #788696
+set $color3 #788696
+set $color4 #788696
+set $color5 #788696
+set $color6 #788696
+set $color7 #c5c5c6
+set $color8 #515355
+set $color9 #788696
+set $color10 #788696
+set $color11 #788696
+set $color12 #788696
+set $color13 #788696
+set $color14 #788696
+set $color15 #c5c5c6

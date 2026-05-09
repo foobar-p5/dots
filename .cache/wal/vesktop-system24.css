@@ -1,0 +1,60 @@
+:root {
+    --colors: on;
+
+    --text-0: #171a1d;
+    --text-1: #c5c5c6;
+    --text-2: #c5c5c6;
+    --text-3: #c5c5c6;
+    --text-4: #788696;
+    --text-5: #515355;
+
+    --bg-1: #171a1d;
+    --bg-2: #171a1d;
+    --bg-3: #171a1d;
+    --bg-4: #171a1d;
+
+    --accent-1: #788696;
+    --accent-2: #c5c5c6;
+    --accent-3: #c5c5c6;
+    --accent-4: #c5c5c6;
+    --accent-5: #171a1d;
+    --accent-new: #788696;
+
+    --online: #788696;
+    --dnd: #788696;
+    --idle: #788696;
+    --streaming: #c5c5c6;
+    --offline: #515355;
+
+    --border-hover: #c5c5c6;
+
+    --red-1: #788696;
+    --red-2: #788696;
+    --red-3: #788696;
+    --red-4: #788696;
+    --red-5: #788696;
+
+    --green-1: #788696;
+    --green-2: #788696;
+    --green-3: #788696;
+    --green-4: #788696;
+    --green-5: #788696;
+
+    --blue-1: #788696;
+    --blue-2: #788696;
+    --blue-3: #788696;
+    --blue-4: #788696;
+    --blue-5: #788696;
+
+    --yellow-1: #788696;
+    --yellow-2: #788696;
+    --yellow-3: #788696;
+    --yellow-4: #788696;
+    --yellow-5: #788696;
+
+    --purple-1: #c5c5c6;
+    --purple-2: #c5c5c6;
+    --purple-3: #c5c5c6;
+    --purple-4: #c5c5c6;
+    --purple-5: #c5c5c6;
+}

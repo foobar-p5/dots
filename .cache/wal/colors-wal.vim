@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/foobar/pics/walls/tiled3.png"
+let background = "#171a1d"
+let foreground = "#c5c5c6"
+let cursor     = "#c5c5c6"
+
+" Colors
+let color0  = "#171a1d"
+let color1  = "#788696"
+let color2  = "#788696"
+let color3  = "#788696"
+let color4  = "#788696"
+let color5  = "#788696"
+let color6  = "#788696"
+let color7  = "#c5c5c6"
+let color8  = "#515355"
+let color9  = "#788696"
+let color10 = "#788696"
+let color11 = "#788696"
+let color12 = "#788696"
+let color13 = "#788696"
+let color14 = "#788696"
+let color15 = "#c5c5c6"

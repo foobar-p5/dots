@@ -3,7 +3,12 @@ function peza-out
 end
 
 function _c --on-event fish_prompt
-    set -q _pf
+    if not set -q _pf
+        set -g _pf (peza-out)
+        set -g _pd (pwd)
+        return
+    end
+    
     if test $status -ne 0
         echo ''
         peza-out

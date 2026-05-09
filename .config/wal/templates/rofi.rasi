@@ -1,0 +1,61 @@
+@theme ""
+
+* {{
+    background-color: {background};
+    border-color:     {color9};
+    text-color:       {color7};
+    font:             "Gallant12 14";
+}}
+
+window {{
+    anchor:           center;
+    location:         center;
+    padding:          0px;
+    border:           6px;
+    border-color:     {color9};
+    width:            256px;
+    background-color: {color9};
+    children:         [ mainbox ];
+}}
+
+mainbox {{
+    orientation:      horizontal;
+    expand:           true;
+    width:            100%;
+    height:           100%;
+    background-color: {background};
+    children:         [ entry, listview ];
+}}
+
+entry {{
+    enabled:          false;
+}}
+
+listview {{
+    layout:           horizontal;
+    lines:            1;
+    expand:           true;
+    height:           100%;
+    spacing:          0px;
+    margin:           4px -2px 4px -2px;
+    background-color: transparent;
+}}
+
+element {{
+    padding:          0px 10px;
+    expand:           true;
+    width:            100%;
+    height:           100%;
+    background-color: transparent;
+}}
+
+element selected {{
+    background-color: transparent;
+}}
+
+element-text {{
+    background-color: transparent;
+    text-color:       {color7};
+    horizontal-align: 0.5;
+    vertical-align:   0.5;
+}}
